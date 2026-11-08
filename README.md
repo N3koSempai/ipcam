@@ -37,11 +37,6 @@ flatpak run io.github.N3kosempai.klia-ipcam
 - **H.264**: supported (GPU or software).
 - **H.265 (HEVC)**: not supported yet. If a camera only offers H.265, the app can ask the camera to switch to H.264 from the setup wizard.
 
-## Troubleshooting
-
-- A camera shows **"Sin decodificador" / no decoder**: the OpenH264 runtime extension is missing. Install it with `flatpak install flathub org.freedesktop.Platform.openh264//2.5.1`.
-- To force software decoding for testing, run with `KLIA_DECODER=software`.
-
 ## Community
 
 - Found a bug or have a question? Open an [issue](https://github.com/N3koSempai/ipcam/issues).
